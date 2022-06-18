@@ -1,0 +1,200 @@
+/*phone styles*/
+@media screen and (min-width:375px) {
+
+    body{
+        background-color:salmon;
+        background-image:url("https://dl.dropbox.com/s/0ke0092usaognmm/bg-intro-desktop.png?dl=0");
+     background-position:center;
+     height:100%;
+    }
+   
+
+    h1{
+        color:white;
+        text-align:center;
+    }
+    #major{
+        text-align:center;
+        color:white;
+    }
+    
+    #notice{
+        color:white;
+        text-align:center;
+    }
+    
+    
+    #down{
+        margin-top:28px;
+    }
+    .notice{
+        background-color:darkblue;
+        border-radius:5px;
+        width:350px;
+        padding:15px;
+        position:relative;
+        top:40px;
+    }
+    
+    .reg{margin-top:100px;
+        text-align:center;
+        background-color:white;
+        border-radius:20px;
+        
+        
+    }
+    #FirstName{
+        padding:30px;
+        width:250px;
+        margin-top:20px;
+        
+    }
+    
+    #LastName{
+        padding:30px;
+        width:250px;
+        margin-top:15px;
+    }
+    
+    #password{
+        padding:30px;
+        width:250px;
+        margin-top:15px;
+    }
+    
+    #email{
+        padding:30px;
+        width:250px;
+        margin-top:15px;
+        }
+    
+    #but1{
+        
+        background-color:seagreen;
+        color:white;
+    padding:30px;
+        width:300px;
+        margin-top:15px;
+        font-size:16px;
+    }
+    #red{
+        color:red;
+    }
+    
+    }
+    
+    
+
+
+
+
+
+
+/*desktop styles*/
+
+@media screen and (max-width:1440px){
+
+    body{
+        display: grid;
+        background-color:salmon;
+        background-image:url("https://dl.dropbox.com/s/0ke0092usaognmm/bg-intro-desktop.png?dl=0");
+     background-position:center;
+     height:100%;
+     grid-template-columns: 300px 300px;
+    }
+    /*first wrapper*/
+    .parent{
+        display:grid;
+        justify-self: start;
+    }
+ /*second wrapper*/
+    .container{
+        display: grid;
+        width: 300px;
+        position:relative;
+        left:280px;
+    }
+
+
+    h1{
+        color:white;
+        text-align:center;
+        position: relative;
+        top:300px;
+    }
+    #major{
+        text-align:center;
+        color:white;
+        width:480px;
+        bottom: 350px;
+        position: relative;
+    }
+    
+    #notice{
+        color:white;
+        text-align:center;
+        
+    }
+    
+    
+    #down{
+        margin-top:28px;
+    }
+    .notice{
+        background-color:darkslateblue;
+        border-radius:5px;
+        width:400px;
+        padding:15px;
+        position:relative;
+        top:70px;
+        margin-top:50px;
+    }
+    
+    .reg{margin-top:100px;
+        text-align:center;
+        background-color:white;
+        border-radius:20px;
+        width: 450px;
+        
+        
+    }
+    #FirstName{
+        padding:30px;
+        width:250px;
+        margin-top:20px;
+        
+    }
+    
+    #LastName{
+        padding:30px;
+        width:250px;
+        margin-top:15px;
+    }
+    
+    #password{
+        padding:30px;
+        width:250px;
+        margin-top:15px;
+    }
+    
+    #email{
+        padding:30px;
+        width:250px;
+        margin-top:15px;
+        }
+    
+    #but1{
+        
+        background-color:seagreen;
+        color:white;
+    padding:30px;
+        width:300px;
+        margin-top:15px;
+        font-size:16px;
+    }
+    #red{
+        color:red;
+    }
+    
+    
+}
